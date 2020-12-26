@@ -1,0 +1,79 @@
+<HTML>
+
+<head>
+    <title>Get Your Pet </title>
+    <link href="styles/site.css" type="text/css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/logo.png">
+
+    <body style="color: black;">
+
+        <div class="container">
+
+        </div>
+
+        <div class="topnav" id="myTopnav">
+            <a href="home.html">Home</a>
+            <a href="pets.html">Pets</a>
+            
+            <a href="about.html" class="current">About Us</a>
+            <a href="register.html">Register Here</a>
+			<a href="contact.html">Feedback</a>
+
+        </div>
+
+
+        <div class="date00">
+            <SCRIPT LANGUAGE="JavaScript">
+                var now = new Date();
+
+                var days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+
+                var months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+
+                var date = ((now.getDate() < 10) ? "0" : "") + now.getDate();
+
+                function fourdigits(number) {
+                    return (number < 1000) ? number + 1900 : number;
+                }
+                today = days[now.getDay()] + ", " +
+                    months[now.getMonth()] + " " +
+                    date + ", " +
+                    (fourdigits(now.getYear()));
+
+                document.write(today);
+            </script>
+        </div>
+
+
+
+        <h1> Get_Ur_Pet is a renowned Online Store, Launched in 2020,December 11. </h1>
+        <h2> Our founders believe that the internet can break economic barriers and change the way business is done. Therefore, we want to bring e-commerce into the people's lives. </h2>
+        <h3> Pets can be adobted here at reasonable price!! </h3>
+
+        <h1> Register Now to stay connected with us for Weekly Offers and Discounts! </h1>
+        <br><br><br>
+        <style>
+            .button12 {
+                background-color: black;
+                border: none;
+                color: white;
+                padding: 10px 12px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                cursor: pointer;
+            }
+            
+            .button12:hover {
+                background-color: grey
+            }
+        </style>
+     
+
+
+    </body>
+    <script src="scripts/date.js">
+    </script>
+
+</html>
